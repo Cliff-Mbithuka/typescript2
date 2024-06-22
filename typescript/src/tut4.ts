@@ -57,6 +57,7 @@ printStaffDetails(bob)
 
 
 type Book = {id: number; name: string;price: number};
+type DiscountedBook =  Book & {discount: number}
 
 const book1: Book = {
     id: 1,
@@ -68,10 +69,15 @@ const book2: Book = {
     name: 'The secret life of unicorns',
     price: 18,
 };
-const discountedbook: Book & {discount: number} = {
+const discountedbook: DiscountedBook = {
     id: 3,
     name: 'Gnomes vs. Goblins: The Ultimate Guide',
     price: 25,
     discount: 0.15,
 };
 
+const propName = 'age';
+type Animal = {
+    [propName]: number;
+};
+let tiger: Animal = { [propName]: 5}
