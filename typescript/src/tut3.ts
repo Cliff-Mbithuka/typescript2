@@ -63,3 +63,11 @@ return `${message}${total}`;
 
 let result = sum('The total is : ',1,2,3,4,5)
 console.log(result);
+
+// Functions without return statements
+function logMessage(message: string):void{
+    console.log(message);
+    // return "Hello world"; This cannot happen 
+}
+
+logMessage("Hello, TypeScript")
