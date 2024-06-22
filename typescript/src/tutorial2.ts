@@ -30,3 +30,23 @@ discount = "20";
 
 let orderStatus: 'processing' | 'shipped' | 'delivered' = 'processing';
 
+                //Arrays          
+let prices: number[] = [100, 75, 42]
+//prices.push('hello')
+
+let fruit:string[] = ['apple', 'orange'];
+
+// let randomValues:[] = ['hello'];  Not assignable to the empty array without declaring the type
+let emptyValues: number[] = [];
+
+
+let names = ['peter', 'susan', 1];
+let array:(string | boolean)[] = ["apples", true, 'orange', false];
+
+let temperatures:number[] = [20, 25, 30];
+// temperatures.push("hot")
+
+let colors: string[] = ['red', 'green', 'blue'];
+// colors.push(true);
+
+let mixedArray:(number | string)[] = [1, 'two', 3]
