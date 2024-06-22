@@ -14,5 +14,5 @@ amount = 12 - 1;
 
 let isAwesome: boolean = true;
 isAwesome = false;
-// isAwesome = "shakeAndBake"
+
 
