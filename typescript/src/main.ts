@@ -5,6 +5,7 @@ import { setupCounter } from './counter.ts'
 import './tutorial.ts'
 import './tutorial2.ts'
 import './tut3.ts'
+import './tut4.ts'
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
