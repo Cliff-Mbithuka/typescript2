@@ -71,3 +71,18 @@ function logMessage(message: string):void{
 }
 
 logMessage("Hello, TypeScript")
+
+//Union types Parameters
+// if the input i a number multiply number by 2 if string convert the sting to uppercase
+function processInput(input:string | number){
+    if(typeof input === 'number'){
+        console.log(input * 2);
+    }else{
+        console.log(input.toLowerCase);   
+    }
+// what we have done is used type guards
+
+}
+
+processInput(10)
+processInput("cliff")
